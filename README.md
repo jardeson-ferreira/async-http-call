@@ -32,3 +32,8 @@ O código consiste em duas funções principais:
 ## Contribuição
 
 Contribuições são bem-vindas! Se você tiver sugestões, melhorias ou correções, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+
+## Desenvolvedores
+
+| [<img src="https://avatars.githubusercontent.com/jose-uchoa" width=115><br><sub>Jose Uchoa</sub>](https://github.com/jose-uchoa) |
+| :----------------------------------------------------------: |
