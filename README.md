@@ -35,5 +35,5 @@ Contribuições são bem-vindas! Se você tiver sugestões, melhorias ou correç
 
 ## Desenvolvedores
 
-| [<img src="https://avatars.githubusercontent.com/jardeson-ferreira" width=115><br><sub>José Uchôa</sub>](https://github.com/jardeson-ferreira) |
+| [<img src="https://avatars.githubusercontent.com/jardeson-ferreira" width=115><br><sub>Jardeson Ferreira</sub>](https://github.com/jardeson-ferreira) |
 | :----------------------------------------------------------: |
