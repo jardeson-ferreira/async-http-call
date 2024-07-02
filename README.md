@@ -1,39 +1,38 @@
-# Exemplo de Chamada HTTP não bloqueante em Django
+# Example of Non-blocking HTTP Call in Django
 
-Este é um exemplo simples de uma função assíncrona em Django que realiza uma chamada HTTP não bloqueante usando a biblioteca `httpx`. Essa abordagem permite que o código continue executando outras tarefas enquanto aguarda a resposta da chamada HTTP.
+This is a simple example of an asynchronous function in Django that makes a non-blocking HTTP call using the `httpx` library. This approach allows the code to continue executing other tasks while waiting for the HTTP call response.
 
-## Pré-requisitos
+## Prerequisites
 
-Certifique-se de ter instalado o Python e o Django em seu ambiente de desenvolvimento.
+Make sure you have Python and Django installed in your development environment.
 
-## Instalação
+## Installation
 
-1. Clone este repositório em sua máquina local.
+1. Clone this repository to your local machine.
 
-2. Navegue até o diretório do projeto.
+2. Navigate to the project directory.
 
-## Uso
+## Usage
 
-1. Execute o servidor de desenvolvimento do Django.
+1. Run the Django development server.
 
+2. Open your browser and go to `http://localhost:8000`.
 
-2. Abra o navegador e acesse `http://localhost:8000`.
+3. You will see the message "Non-blocking HTTP request!" in the browser.
 
-3. Você verá a mensagem "Non-blocking HTTP request!" no navegador.
+## Code Explanation
 
-## Explicação do Código
+The code consists of two main functions:
 
-O código consiste em duas funções principais:
+- The `http_call_async` function is an asynchronous function that makes a non-blocking HTTP call. It iterates from 1 to 5, waiting 1 second in each iteration and displaying the corresponding number. Then, it makes an asynchronous GET request to the URL "https://httpbin.org/" using the `httpx` library's HTTP client.
 
-- A função `http_call_async` é uma função assíncrona que realiza uma chamada HTTP não bloqueante. Ela itera de 1 a 5, aguardando 1 segundo em cada iteração e exibindo o número correspondente. Em seguida, realiza uma chamada GET assíncrona para a URL "https://httpbin.org/" usando o cliente HTTP da biblioteca `httpx`.
+- The `async_view` function is a Django asynchronous view that initiates the asynchronous HTTP call in the background and returns an immediate HTTP response.
 
-- A função `async_view` é uma view assíncrona do Django que inicia a chamada HTTP assíncrona em segundo plano e retorna uma resposta HTTP imediata.
+## Contribution
 
-## Contribuição
+Contributions are welcome! If you have suggestions, improvements, or corrections, feel free to open an issue or submit a pull request.
 
-Contribuições são bem-vindas! Se você tiver sugestões, melhorias ou correções, sinta-se à vontade para abrir uma issue ou enviar um pull request.
-
-## Desenvolvedores
+## Developers
 
 | [<img src="https://avatars.githubusercontent.com/jardeson-ferreira" width=115><br><sub>Jardeson Ferreira</sub>](https://github.com/jardeson-ferreira) |
 | :----------------------------------------------------------: |
