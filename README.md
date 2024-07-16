@@ -12,9 +12,17 @@ Certifique-se de ter o Python e o Django instalados no seu ambiente de desenvolv
 
 2. Navegue até o diretório do projeto.
 
+3. Instale a biblioteca `httpx`:
+    ```bash
+    pip install httpx
+    ```
+
 ## Uso
 
-1. Execute o servidor de desenvolvimento do Django.
+1. Execute o servidor de desenvolvimento do Django:
+    ```bash
+    python manage.py runserver
+    ```
 
 2. Abra o seu navegador e vá para `http://localhost:8000`.
 
