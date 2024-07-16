@@ -1,4 +1,4 @@
-# Exemplo de Chamada HTTP Não Bloqueante em Django
+# Exemplo de Chamada HTTP Assíncrona
 
 Este é um exemplo simples de uma função assíncrona em Django que faz uma chamada HTTP não bloqueante usando a biblioteca `httpx`. Essa abordagem permite que o código continue executando outras tarefas enquanto aguarda a resposta da chamada HTTP.
 
